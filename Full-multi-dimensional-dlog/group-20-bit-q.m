@@ -1,0 +1,23 @@
+q:=1094833;//bit_q:=20
+
+
+ p:=898846567431157953864652595394512366808988489471153286367150405788663379027\
+5048156635423866120376801056005693993569667882939488440720831124642371531973706\
+2188883946712432742638151109800623047059726541476042502884419075341171231440736\
+956555270413618581675255342293149119973622969239858152417678164812132075497;
+
+//k:=2;
+//p:=k*q+1;
+
+//Defining the group and the subgroup Gq 
+Z:=Integers();
+Zp := Integers(p);
+Zp_star, iso_unit_group_to_Zp := UnitGroup(Zp);
+Gq, iso_Gq_to_Zq := sub<Zp_star| ((p-1) div q)*Zp_star.1>;
+length_for_tame_or_wild:=5;
+tame_length:=length_for_tame_or_wild;
+wild_length:=length_for_tame_or_wild;
+dis_pt_length:=12;
+dis_pt_length_tt:=6;
+r1:=4;l1:=20;
+Zq:=Integers(q);

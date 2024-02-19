@@ -1,5 +1,8 @@
 This folder contains related codes for full-multi-dimensional-discrete-logarithm-computation
 
+
+The files here are for a 1024 bit prime p
+
 The file par-running-all.sh provides the sequence in which the files should be run
 
 

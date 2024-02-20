@@ -6,5 +6,7 @@ The files here are for a 1024 bit prime p
 The file par-running-all.sh provides the sequence in which the files should be run
 
 
+The main files which perform Gaudry-Schost algorithm and it's version modified with tag-tracing is present in the files gs-full-log-finding.m and tt-full-log-finding.m respectively
 
+Both these files contain the codes which check the validity of the results
 
